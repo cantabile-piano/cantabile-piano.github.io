@@ -1,10 +1,10 @@
 # Site settings
-title: Your awesome title
+title: Cantabile Piano
 description: >
              Write an awesome description for your new site here. You can edit this
              line in _config.yml. It will appear in your document head meta (for
              Google search results) and in your feed.xml site description.
-url: https://yyl29.github.io/jekyll-blog
+url: https://cantabile-piano.github.io
 copyright: Yan-Yi Li
 
 author:
@@ -12,11 +12,11 @@ author:
   bio: A short paragraph about you. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   avatar: avatar.jpg
   email: your-email@domain.com
-  github: username
+  github: cantabile-piano
   twitter: username
 
-disqus: disqus-shortname
-google-analytics: "UA-84664401-1"
+disqus: ""
+google-analytics: ""
 carousel_slides: 4
 words_per_minute: 200
 
@@ -42,7 +42,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
   -
     scope:
       path: ""
