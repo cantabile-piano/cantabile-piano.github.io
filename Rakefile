@@ -6,7 +6,7 @@ BLOG_PATH = "blog/"
 EDITOR = "subl"
 PORT = 4000
 DATE = Time.now.strftime("%Y-%m-%d")
-GITHUB_REPO = "yyl29/jekyll-blog"
+GITHUB_REPO = "cantabile-piano/cantabile-piano.github.io"
 
 # == Tasks ===========================================================
 task :default do
