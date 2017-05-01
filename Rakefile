@@ -65,12 +65,13 @@ end
 desc "Preview site in the default browser"
 task :preview => 'preview:site'
 
-desc "Deploy site to gh-pages"
+desc "Deploy site to master"
 task :deploy do
   system "JEKYLL_ENV=production jekyll build"
 
   Dir.mktmpdir do |tmp|
     cp_r "_site/.", tmp
+    cp ".nojekyll", tmp
 
     pwd = Dir.pwd
     Dir.chdir tmp
@@ -79,8 +80,8 @@ task :deploy do
     system "git add ."
     message = "Site updated at #{Time.now}"
     system "git commit -m #{message.inspect}"
-    system "git remote add origin https://github.com/#{GITHUB_REPO}"
-    system "git push origin master:refs/heads/gh-pages --force"
+    system "git remote add origin git@github.com:#{GITHUB_REPO}"
+    system "git push origin master:refs/heads/master --force"
 
     Dir.chdir pwd
   end
