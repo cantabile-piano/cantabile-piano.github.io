@@ -1,19 +1,18 @@
 # Site settings
 title: Cantabile Piano
 description: >
-             Write an awesome description for your new site here. You can edit this
-             line in _config.yml. It will appear in your document head meta (for
-             Google search results) and in your feed.xml site description.
+             Piano teacher and music therapist based in London. From playing Hanon and Czerny, to working with children with learning disabilities using improvisation, this is my little journey of how my thinking has evolved.
 url: https://cantabile-piano.github.io
-copyright: Yan-Yi Li
+github: cantabile-piano
+copyright: Yan-Ling Li
 
 author:
-  name: name
-  bio: A short paragraph about you. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  name: Yan-Ling Li
+  bio: Piano teacher and music therapist based in London.
   avatar: avatar.jpg
-  email: your-email@domain.com
+  email: cantabilepiano.london@gmail.com
   github: cantabile-piano
-  twitter: username
+  twitter: ""
 
 disqus: ""
 google-analytics: ""
@@ -25,7 +24,7 @@ sass:
   style: compressed
 include: [_pages, _data]
 exclude: [Gemfile, Gemfile.lock, LICENSE, Rakefile]
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-admin]
 permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num/"
@@ -42,6 +41,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      searchable: true
       comments: false
   -
     scope:
@@ -49,3 +49,4 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+      searchable: false

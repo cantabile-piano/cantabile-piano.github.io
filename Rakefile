@@ -52,13 +52,13 @@ end
 namespace :preview do
   task :site do
     launch_browser
-    system "jekyll serve --config _config.yml,_config-dev.yml"
+    system "jekyll serve"
   end
 
   desc "Preview site with drafts in the default browser"
   task :drafts do
     launch_browser
-    system "jekyll serve --drafts --config _config.yml,_config-dev.yml"
+    system "jekyll serve --drafts"
   end
 end
 
@@ -170,7 +170,7 @@ end
 def launch_browser
   Thread.new do
     puts "Launching browser for preview..."
-    sleep 2
+    sleep 3
     system "#{open_command} http://localhost:#{PORT}/"
   end
 end

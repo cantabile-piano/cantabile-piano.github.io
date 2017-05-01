@@ -1,18 +1,12 @@
 - slide: 0
-  description: First slide details.
-  content: <strong>First slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: The piano keys are black and white but they sound like a million colors in your mind. <i>Maria Cristina Mena</i>
 - slide: 1
-  description: Second slide details.
-  content: <strong>Second slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: The piano ain’t got no wrong notes. <i>Thelonious Monk</i>
 - slide: 2
-  description: Third slide details.
-  content: <strong>Third slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: When you play, never mind who listens to you. <i>Robert Schumann</i>
 - slide: 3
-  description: Fourth slide details.
-  content: <strong>Fourth slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: Life is like a piano. What you get out of it depends on how you play it. <i>Tom Lehrer</i>
 - slide: 4
-  description: Fifth slide details.
-  content: <strong>Fifth slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: Many people have asked me why there are three pedals in these grand pianos. Well the pedal in the middle is there to separate the two other pedals. <i>Victor Borge</i>
 - slide: 5
-  description: Sixth slide details.
-  content: <strong>Sixth slide.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde harum rem, beatae ipsa consectetur quisquam.
+  content: The notes I handle no better than many pianists. But the pauses between the notes - ah, that is where the art resides. <i>Artur Schnabel</i>
