@@ -24,7 +24,7 @@ sass:
   style: compressed
 include: [_pages, _data]
 exclude: [Gemfile, Gemfile.lock, LICENSE, Rakefile]
-gems: [jekyll-paginate, jekyll-admin]
+gems: [jekyll-paginate, jekyll-admin, jekyll-sitemap]
 permalink: pretty
 paginate: 5
 paginate_path: "/blog/page:num/"
