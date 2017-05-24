@@ -12,10 +12,10 @@ author:
   avatar: avatar.jpg
   email: cantabilepiano.london@gmail.com
   github: cantabile-piano
-  twitter: ""
+  twitter:
 
-disqus: ""
-google-analytics: ""
+disqus:
+google-analytics: UA-99308232-1
 carousel_slides: 4
 words_per_minute: 200
 
